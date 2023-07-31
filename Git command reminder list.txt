@@ -6,6 +6,7 @@ git config --global user.email <email github>
 git config --list
 git remote add origin <url https repo github> #add existing remote url
 git remote set-url origin <url https repo github> #change existing remote url
+git pull --allow-unrelated-histories origin master #working with another computer
 git remote -v
 git branch -M main
 git add .
