@@ -1,10 +1,11 @@
 Basic Git command flow
 
 git init
-git git config --global user.name <username github>
+git config --global user.name <username github>
 git config --global user.email <email github> 
-git status
+git config --list
 git branch -M main
 git add .
 git commit -m "<description>"
+git status
 git push origin main
