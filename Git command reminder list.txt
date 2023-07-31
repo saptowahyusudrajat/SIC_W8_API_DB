@@ -7,6 +7,8 @@ git config --list
 git remote add origin <url https repo github> #add existing remote url
 git remote set-url origin <url https repo github> #change existing remote url
 git pull --allow-unrelated-histories origin master #working with another computer
+git clone <url https repo github> #download to local repo
+git pull origin <branch> #update local repo and sync with github
 git remote -v
 git branch -M main
 git add .
