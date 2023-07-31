@@ -4,6 +4,8 @@ git init
 git config --global user.name <username github>
 git config --global user.email <email github> 
 git config --list
+git remote set-url origin <url https repo github>
+git remote -v
 git branch -M main
 git add .
 git commit -m "<description>"
